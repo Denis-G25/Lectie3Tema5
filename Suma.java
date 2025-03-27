@@ -17,4 +17,8 @@ public class Suma {
         int rezultat = Integer.parseInt(a) + Integer.parseInt(b) + Integer.parseInt(c) + Integer.parseInt(d);
         return String.valueOf(rezultat);
     }
+
+public String toString() {
+        return "Aceasta este clasa Suma, care calculează sume de numere.";
+    
 }
